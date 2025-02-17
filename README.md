@@ -5,3 +5,9 @@ So, this was the Z3NITH'22 website I had made in 2022 for my school's annual tec
 The extensions of files are kept in .php so as to keep any options open, if any portal or the live-server were to be really utilised for any event. The files were made in 2022, and there's a less chance, but still a chance that it may have a few broken hyperlinks, so I hope that's not gonna be the case.
 
 This is one of my favourite works to this day. Hope you enjoy reliving the experience of 2022.
+
+The images, couldn't be uploaded into the IMG directory due to Github Upload Limit - this site will be available on my portfolio one day.
+
+![Alt text](IMG/homepage.jpeg)
+![Alt text](IMG/videopage.jpeg)
+![Alt text](IMG/menupage.jpeg)
