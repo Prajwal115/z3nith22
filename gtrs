@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+  .event{
+    height:300px;
+    width:320px;
+    background-color:#0d0d0d;
+    border-radius: 25px;
+  }
+  body{
+    background-color: black;
+  }
+
+.row{
+    margin-left: 90px;
+
+  }
+  .event{
+    float: left;
+    margin-right: 50px;
+    margin-top: 60px;
+
+  }
+  #e1{
+    margin-left: 45px;
+  }
+#elone{
+    background-color: white;
+    width:50px;
+    height:50px;
+    color:black;
+margin-left: 20px;
+transform: translateY(450%);
+border-radius: 25px;
+font-size: 25px;
+  }
+#elone:hover{
+    color:white;
+    background-color: grey;
+    transition: 0.5s;
+}
+#eltwo{
+    background-color: white;
+    width:50px;
+    height:50px;
+    color:black;
+margin-left: 1200px;
+transform: translateY(450%);
+border-radius: 25px;
+font-size: 25px;
+  }
+#eltwo:hover{
+    color:white;
+    background-color: grey;
+    transition: 0.5s;
+}
+#nonlol{
+  display:none;
+}
+.t, .s, .n{
+  background-color: #0d0d0d;
+}
+#hack{
+  width:80%;
+  margin: 25px;
+}
+.event:hover{
+  background-color: #0d0d0d;
+  transition: 0.8s;
+  height:420px;
+}
+.event:hover img{
+  filter:blur(5px);
+  transition: 0.8s;
+
+}
+h1{
+  color:white;
+font-family: 'Syncopate', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  display:none;
+}
+h2{
+  color:white;
+  font-family: "Montserrat",sans-serif;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 2px;
+  display:none;
+}
+.event:hover h1{
+  display:block;
+  transition: 0.5s;
+}
+.event:hover h2{
+  display:block;
+  transition: 0.5s;
+}
+
+#elone,#eltwo{
+
+    transform: translateY(450%);
+
+
+}
+#elthr,#elfor{
+
+    transform: translateY(450%);
+
+
+}
+  </style>
+  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap" rel="stylesheet">
+<button id = "elone" onclick="reverse()">⟵</button>
+<button id = "eltwo" onclick="appear()">⟶</button>
+
+
+<div class = "row" id = "peh">
+
+
+
+
+
+<div class = "event t" id = "e1">
+<img id = "hack" src = "IMG/Hackathon.png" />
+<h1>HACKx. CODEx. BUILDx</h1>
+<h2>Skill it! Build it! Kill it!</h2>
+</div>
+<div class = "event s">
+<img id = "hack" src = "IMG/Hackathon.png" />
+</div>
+<div class = "event n">
+<img id = "hack" src = "IMG/Hackathon.png" />
+</div>
+
+</div>
+<div class = "row" id = "nonlol">
+
+
+
+
+
+<div class = "event" id = "e1"></div>
+<div class = "event"></div>
+<div class = "event"></div>
+
+</div>
+
+<script>
+function appear(){
+  document.getElementById("peh").style.display = "none";
+  document.getElementById("nonlol").style.display = "block";
+
+}
+function reverse(){
+  document.getElementById("peh").style.display = "block";
+  document.getElementById("nonlol").style.display = "none";
+
+}
+
+</script>
+  </body>
+</html>

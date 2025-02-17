@@ -1,0 +1,109 @@
+
+.event{
+  height:300px;
+  width:320px;
+  background-color:#0d0d0d;
+  border-radius: 25px;
+}
+body{
+  background-color: black;
+}
+
+.row{
+  margin-left: 90px;
+
+}
+.event{
+  float: left;
+  margin-right: 50px;
+  margin-top: 60px;
+
+}
+#e1{
+  margin-left: 45px;
+}
+#elone{
+  background-color: white;
+  width:50px;
+  height:50px;
+  color:black;
+margin-left: 50px;
+padding: 5px;
+transform: translateY(450%);
+border-radius: 25px;
+font-size: 25px;
+}
+#elone:hover{
+  color:white;
+  background-color: grey;
+  transition: 0.5s;
+}
+#eltwo{
+  background-color: white;
+  width:50px;
+  height:60px;
+  padding: 5px;
+  color:black;
+margin-left: 1200px;
+transform: translateY(450%);
+border-radius: 25px;
+font-size: 25px;
+}
+#eltwo:hover{
+  color:white;
+  background-color: grey;
+  transition: 0.5s;
+}
+#nonlol{
+display:none;
+}
+.t, .s, .n{
+background-color: #0d0d0d;
+}
+#hack{
+width:80%;
+margin: 25px;
+}
+.event:hover{
+background-color: #0d0d0d;
+transition: 0.8s;
+height:420px;
+}
+.event:hover img{
+filter:blur(5px);
+transition: 0.8s;
+
+}
+h1{
+color:white;
+font-family: 'Syncopate', sans-serif;
+font-size: 25px;
+text-align: center;
+display:none;
+}
+h2{
+color:white;
+font-family: "Montserrat",sans-serif;
+font-size: 15px;
+text-align: center;
+letter-spacing: 2px;
+display:none;
+}
+.event:hover h1{
+display:block;
+transition: 0.5s;
+}
+.event:hover h2{
+display:block;
+transition: 0.5s;
+}
+
+#elone,#eltwo{
+
+  transform: translate(20%,-130%);
+
+
+}
+.rows button:hover{
+background-color: #0d0d0d;
+}
